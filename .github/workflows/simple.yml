@@ -13,3 +13,7 @@ jobs:
             node -v
             npm -v
             echo "These are the versions..."
+        - name: python commands
+          run: |
+            import platform
+            print(platform.processor())
